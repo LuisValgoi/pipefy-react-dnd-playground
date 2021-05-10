@@ -37,6 +37,12 @@ To copy the pipefy user interface to use the `react-drag-and-drop`.
 
 - `import { Container } from './styles'`: to embed the div and the style of your component.
 
+# Dran'Drop
+
+- `useDrag`: the one which does the action (drag).
+
+- `useDrop`: the one which receives the action (drop).
+
 # Fonts Used
 
 - [roboto](https://fonts.google.com/specimen/Roboto)
