@@ -1,4 +1,4 @@
-# Object
+# Objective
 To copy the pipefy user interface to use the `react-drag-and-drop`.
 
 # Dependencies / Tooling
@@ -31,17 +31,21 @@ To copy the pipefy user interface to use the `react-drag-and-drop`.
 
 - `color: ... rgba(230, 230, 245, 0.4)`: to add opacity, uses `rgba`.
 
-# Notes Arquitetura
+# Notes Architecture
 
 - `Create a new or keep in the same component?`: when we picture that that POC can be decoupled from the rest of the app, then we create (or, when it works separately).
 
 - `import { Container } from './styles'`: to embed the div and the style of your component.
 
-# Dran'Drop
+# Notes Drag And Drop
 
 - `useDrag`: the one which does the action (drag).
 
 - `useDrop`: the one which receives the action (drop).
+
+- `Element.getBoundingClientRect()`: returns a DOMRect object w/ infos about the size of an element and its position relative to the viewport.
+
+- `getClientOffset():` Returns the last recorded { x, y } client offset of the pointer while a drag operation is in progress
 
 # Fonts Used
 
