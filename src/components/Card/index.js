@@ -16,7 +16,7 @@ export default function Card({ data }) {
   });
 
   return (
-    <Container ref={dragRef}>
+    <Container ref={dragRef} isDragging={isDragging}>
       <header>
         {data.labels.map((label) => (
           <Label key={label} color={label} />
