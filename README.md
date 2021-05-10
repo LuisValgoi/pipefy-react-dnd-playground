@@ -23,7 +23,9 @@ To copy the pipefy user interface to use the `react-drag-and-drop`.
 
 - `flex-basis`: determines the base width or height of the element. Width: once `d-flex-row`. Height: once `d-flex-column`.
 
-- ` & + div {...}`: css selector which gets all the `div` which has a prev `div`.
+- `& + div {...}`: css selector which gets all the `div` which has a prev `div`.
+
+- `color: ... rgba(230, 230, 245, 0.4)`: to add opacity, uses `rgba`.
 
 # Notes Arquitetura
 
