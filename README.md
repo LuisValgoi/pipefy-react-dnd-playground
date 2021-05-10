@@ -1,3 +1,6 @@
+# Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/83d7a973-5c6f-4b71-8fb7-7c97ddacf33c/deploy-status)](https://app.netlify.com/sites/pipefy-react-dnd/deploys)
+
 # Objective
 To copy the pipefy user interface to use the `react-drag-and-drop`.
 
