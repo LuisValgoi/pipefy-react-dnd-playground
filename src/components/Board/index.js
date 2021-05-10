@@ -14,13 +14,13 @@ const data = loadLists();
 export default function Board() {
   const [lists, setList] = useState(data);
 
-  const move = (fromList, from, to) => {
+  const move = (fromList, toList, from, to) => {
     setList(
       produce(lists, (draft) => {
         const dragged = draft[fromList].cards[from];
 
         draft[fromList].cards.splice(from, 1);
-        draft[fromList].cards.splice(to, 0, dragged);
+        draft[toList].cards.splice(to, 0, dragged);
       })
     );
   };
