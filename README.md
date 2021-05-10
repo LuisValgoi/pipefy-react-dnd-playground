@@ -9,6 +9,10 @@ To copy the pipefy user interface to use the `react-drag-and-drop`.
 
 - `react-icons`: to use icons in the app (includes material-icons, font-awesome, ionicals, etc).
 
+- `react-dnd`: to use drag and drop;
+
+- `react-dnd-html5-backend`: to serve as the default drag and drop html5 engine.
+
 # Notes CSS
 
 - `box-sizing: border-box;`: to not extrapolate the element's height and width.
